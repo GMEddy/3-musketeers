@@ -15,6 +15,10 @@ Explanation
 
 ### Instalation ###
 
+clone or download :
+
+*https://github.com/GMEddy/3-musketeers.git*
+
 need to have node to use the file js 
 
 *Command :*
