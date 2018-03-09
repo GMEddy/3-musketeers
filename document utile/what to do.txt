@@ -1,0 +1,29 @@
+repertoir bin qui s'éxécute en ligne de commande 
+
+premiere étape 
+
+librarie CASH 
+
+
+completer le read me et bien le détailler 
+
+ecire des commentaire sur des fichié de code source 
+https://blog.wax-o.com/2014/04/tutoriel-un-guide-pour-bien-commencer-avec-markdown/
+
+
+deuxieme étape 
+
+Bitcoin 
+
+read me 
+
+fichier sandbox pour fair appel a la librarie 
+
+Unit Test a completer 
+
+la Couverture de Code pourcentage des ligne couvert par le code  ( tout les tests unitaire très important  )
+utiliser un framework pour le test (npm instal...)
+librairie istanbule pour le code 
+
+Code base déja existant écrire le code base associer 
+
