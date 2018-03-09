@@ -6,7 +6,7 @@
 
 Explanation 
 ==
-## Convert a amont from a currency to another one  ##
+## Convert amont from a currency to another one  ##
 
 ![](http://gifgifs.com/animations/other-animations/money/money-counter.gif)
 
@@ -25,14 +25,14 @@ launch the index.js document
 
 ### how to use cash 
 
-when you start cash you can add the money before launch the programme 
+when you start cash you can add the amont money before launch the programme 
 
 **exemple :**
 
-![](cash.png)
+![](./cash.PNG)
 
 #### Test with 1 USD ####
-![](1USD.png)
+![](./1USD.PNG)
 
 
 
