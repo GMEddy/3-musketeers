@@ -17,27 +17,25 @@ Explanation
 
 need to have node to use the file js 
 
-*command :*
+*Command :*
  
  $ npm install index.js
 
 launch the index.js document 
 
-### how to use cash 
+### How to use cash 
 
-when you start cash you can add the amont money before launch the programme 
+When you start cash you can add the amont money before launch the programme 
 
-**exemple :**
+**Exemple :**
 
-![](./cash.PNG)
+![alt text](cash.PNG "Cash test")
 
 #### Test with 1 USD ####
-![](./1USD.PNG)
+![alt text](1USD.PNG "1USD")
 
 
-
-
-### autors ###
+### Autors ###
 
 ***EDDY6992***
 

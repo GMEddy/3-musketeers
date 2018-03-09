@@ -7,17 +7,21 @@ const currencies = require('../lib/currencies.json');
 
 const API = 'https://api.fixer.io/latest';
 
+/**
+ * Loads all the configuration needed.
+ */
+ // to use convert you need to put the amont of money unit  
 const convert = configuration => {
   const {amount, to, from, response, loading} = configuration;
 
   money.base = response.body.base;
   money.rates = response.body.rates;
-
+// convertion  money
   to.forEach(item => {
     if (currencies[item]) {
       loading.succeed(
         `${chalk.green(
-          money.convert(amount, {from, 'to': item}).toFixed(2)
+          money.convert(amount, {from, 'to': item}).toFixed(2)  
         )} ${`(${item})`} ${currencies[item]}`
       );
     } else {
@@ -33,8 +37,9 @@ const convert = configuration => {
   );
   process.exit(1);
 };
-
-const cash = async command => {
+/**
+ * Here Run the currency conversion .
+*/
   const amount = command.amount;
   const from = command.from.toUpperCase();
   const to = command.to

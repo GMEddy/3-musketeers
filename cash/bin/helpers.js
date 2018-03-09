@@ -4,9 +4,15 @@ const updateNotifier = require('update-notifier');
 const Conf = require('conf');
 const pkg = require('../package.json');
 
+
+
 const config = new Conf();
 
 updateNotifier({pkg}).notify();
+
+/**
+ *  Her you will saves the currencies you would like to set as default ones.
+ */
 
 const saveCurrencies = argv => {
   config.set('defaultFrom', argv[1] || config.get('defaultFrom', 'USD'));
@@ -19,12 +25,18 @@ const saveCurrencies = argv => {
   console.log(chalk.green('Saved default currencies to ' + config.path));
   process.exit(1);
 };
-
-const version = () => {
+/**
+ * Here show ther Version of the App
+*/
+const version = () => {// Version is for 
   console.log(pkg.version);
   process.exit(1);
 };
 
+/**
+ * Here show some the help for the different command 
+ */
+ 
 const help = () => {
   console.log(`
 Usage:
