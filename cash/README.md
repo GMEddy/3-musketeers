@@ -1,4 +1,4 @@
-# cash Readme Gasso
+# CASH README
 
 
 *** Be ready for the Transfert ***
@@ -15,17 +15,26 @@ Explanation
 
 ### Installation ###
 
-clone or download :
+
+
+- clone or download :
 
 *https://github.com/GMEddy/3-musketeers.git*
 
-need to have node to use the file js 
 
-*Command :*
+
+- need to have node to use the file js 
+
+
+
+- *Command :*
  
  $ npm install index.js
 
-launch the index.js document 
+
+
+- launch the index.js document <br />
+ $ node index.js
 
 ### How to use cash 
 
