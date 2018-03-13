@@ -13,7 +13,7 @@ Explanation
 
 ## What you need to know #
 
-### Instalation ###
+### Installation ###
 
 clone or download :
 
@@ -29,7 +29,7 @@ launch the index.js document
 
 ### How to use cash 
 
-When you start cash you can add the amont money before launch the programme 
+When you start cash you can add the amont money before launch the program 
 
 **Exemple :**
 
@@ -41,7 +41,7 @@ When you start cash you can add the amont money before launch the programme
 
 ### Autors ###
 
-***EDDY6992***
+***GMEddy***
 
 licence <br/>
 [https://zenhabits.net/uncopyright/](https://zenhabits.net/uncopyright/)

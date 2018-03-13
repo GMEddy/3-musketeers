@@ -39,7 +39,12 @@ const convert = configuration => {
 };
 /**
  * Here Run the currency conversion .
+  * cash(): converts an amount of a certain currency to another currency.
+  * @param {int} amount - The amount you want to convert.
+  * @param {string} from - The original currency that will be converted.
+  * @param {string} to - The currency that will be converted to.
 */
+
   const amount = command.amount;
   const from = command.from.toUpperCase();
   const to = command.to

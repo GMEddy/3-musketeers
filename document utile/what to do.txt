@@ -27,3 +27,10 @@ librairie istanbule pour le code
 
 Code base déja existant écrire le code base associer 
 
+
+
+/////
+git add .
+
+git commit -m "..."azertyuiop69!
+/////

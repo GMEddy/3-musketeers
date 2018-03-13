@@ -26,7 +26,7 @@ const saveCurrencies = argv => {
   process.exit(1);
 };
 /**
- * Here show ther Version of the App
+ * Here show the Version of the App
 */
 const version = () => {// Version is for 
   console.log(pkg.version);
@@ -34,7 +34,7 @@ const version = () => {// Version is for
 };
 
 /**
- * Here show some the help for the different command 
+ * Here show some the help for the command 
  */
  
 const help = () => {
